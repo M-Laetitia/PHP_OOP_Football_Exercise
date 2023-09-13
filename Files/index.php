@@ -40,12 +40,20 @@
         
 
         // ^ TEAM :
-        $psg = new Team ('PSG', '10-01-1970', $france);
-        $realMadrid = new Team ('Real Madrid','10-01-1902', $espagne); // ? cela affiche 2023 alors que les autres cela fonctionne?
-        $manchesterunited = new Team ('Manchester United','10-01-1878', $angleterre);
-        $fcBarcelone = new Team ('FC Barcelone','10-01-1899', $espagne);
-        $juventus = new Team ('Juventus','10-01-1897', $italie);
-        $racingCulbStras = new Team ('Racing Club Stras','10-01-1897', $france);
+        // $psg = new Team ('PSG', '10-01-1970', $france);
+        // $realMadrid = new Team ('Real Madrid','10-01-1902', $espagne);
+        // $manchesterunited = new Team ('Manchester United','10-01-1878', $angleterre);
+        // $fcBarcelone = new Team ('FC Barcelone','10-01-1899', $espagne);
+        // $juventus = new Team ('Juventus','10-01-1897', $italie);
+        // $racingCulbStras = new Team ('Racing Club Stras','10-01-1897', $france);
+
+        // ^ TEAM  avec problème de date:
+        $psg = new Team ('PSG', '1970', $france);
+        $realMadrid = new Team ('Real Madrid','1902', $espagne); // ? celui ci affiche 2023 alors que les autres cela fonctionne?
+        $manchesterunited = new Team ('Manchester United','1878', $angleterre);
+        $fcBarcelone = new Team ('FC Barcelone','1899', $espagne);
+        $juventus = new Team ('Juventus','1897', $italie);
+        $racingCulbStras = new Team ('Racing Club Stras','1897', $france);
 
 
         // ^ CAREER:
