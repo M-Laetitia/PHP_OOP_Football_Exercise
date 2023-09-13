@@ -15,7 +15,7 @@
             // utilisées pour établir une relation bidirectionnelle entre les objets Team, Player et Career.
             $this->team->addCareer($this);
             $this->player->addCareer($this);
-            
+        
         }
 
     
